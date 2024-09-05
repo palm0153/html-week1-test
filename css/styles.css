@@ -65,3 +65,16 @@ table {
 	margin: 0 auto;
 	background-color: antiquewhite;
   }
+
+  #larger {
+	font-size: 48px;
+  }
+
+.large {
+	font-size: 24px;
+	font-size: bold;
+}
+
+main p {
+	color: red;
+}
