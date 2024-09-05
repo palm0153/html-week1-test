@@ -75,6 +75,30 @@ table {
 	font-size: bold;
 }
 
+/* the CSS box model has margin, border, and padding
+    margin is on the outside and pushes other elements away
+	padding is on the inside and pushes content away from the edge
+	border exists in between the two */
+
+main {
+	margin: 10px; /* one value means applied on all sides */
+	padding: 15px;
+	border: 2px solid black;
+	/* the main element is now 800px +10x2 +2x2 or 854px wide */
+
+}
+
 main p {
 	color: red;
+}
+
+main img {
+	width: 30%;
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
 }
