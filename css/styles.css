@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* ************************************************************************
+            Main Styles
+  *************************************************************************/
+  
+  html {
+	background-color: beige;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+  }
+
+  body {
+	/* this adds some spacingbetween lines, great for accessibility */
+	line-height: 1.6;
+	width: 800px;
+	margin: 0 auto;
+	background-color: antiquewhite;
+  }
